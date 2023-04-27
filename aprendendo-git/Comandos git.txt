@@ -21,3 +21,4 @@ git branch -D nomedobranch
 para nao commitar certos arquivos usar .gitignore e colocar nome do arquivo ignorado dentroou *.txt etc  pasta/
 git revert --no-edit códigodocommit volta o commit anterior mas guarda o commit revertido em outro código de commit
 git pull origin master pra dar pull nos arquivos do repositório remoto pro local
+git clone www.linkdorepositório.com (fazer isso dentro da pasta que vai conter o repositório
