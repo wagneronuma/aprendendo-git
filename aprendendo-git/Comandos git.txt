@@ -16,6 +16,7 @@ git log  ver numeração e nome dos commits
 git branch 
 git reset --soft,mixed ou hard     numeração do commit que eu quero
 git checkout nome do branch
-git push origin: nomedobranch para deletar branch
+git push origin: nomedobranch para deletar branch remoto
+git branch -D nomedobranch
 para nao commitar certos arquivos usar .gitignore e colocar nome do arquivo ignorado dentroou *.txt etc  pasta/
 git revert --no-edit códigodocommit volta o commit anterior mas guarda o commit revertido em outro código de commit
