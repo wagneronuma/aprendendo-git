@@ -24,3 +24,16 @@ git pull origin master pra dar pull nos arquivos do repositório remoto pro loca
 git clone www.linkdorepositório.com (fazer isso dentro da pasta que vai conter o repositório
 clonar repositório que eu forkei faz com que eu posso alterar push/pull normalmente
 git remote -v pra ver o servidor que vou dar dar push ex: git push servidor onomedobranch
+criar repositório no github e conectar com o local
+https://docs.github.com/pt/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+criar repositório, selecionar https e abaixo
+git init
+git add -A
+git add .
+git commit -m "cmt1"
+git branch -M main
+git remote add origin https://github.com/wagneronuma/html-1.0.git
+git push -u origin main
+
+
+
